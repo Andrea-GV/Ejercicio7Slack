@@ -1,8 +1,9 @@
 body {
   padding: 0;
   margin: 0;
-  max-width: 100%;
+  width: 100%;
   display: flex;
+  flex-direction: column;
   font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
   list-style: none;
 }
@@ -17,7 +18,7 @@ ul {
 
 .header {
   background-color: #541554;
-  width: 100vw;
+  width: 100%;
   height: 80px;
   list-style: none;
   display: flex;
@@ -48,7 +49,7 @@ ul {
   align-content: center;
   width: 83%;
   justify-content: space-between;
-  font-weight: 300;
+  font-weight: strong;
   font-size: 15px;
 }
 .header .nav div .nav-ul ul {
@@ -57,7 +58,7 @@ ul {
   list-style: none;
   color: white;
   flex: 1;
-  font-weight: 300;
+  font-weight: strong;
   font-size: 15px;
   align-content: center;
   width: 50%;
@@ -75,7 +76,7 @@ ul {
   height: 100%;
   justify-content: space-between;
   color: white;
-  font-weight: 300;
+  font-weight: strong;
   font-size: 15px;
 }
 .header .nav div .nav-ul .nav-right .sign {
@@ -111,4 +112,17 @@ ul {
   justify-content: center;
   display: flex;
   padding: 5px;
+}
+
+main {
+  width: 100%;
+  height: 4214px;
+}
+main .sec-top-gog {
+  background-color: aquamarine;
+  width: 100%;
+  height: 582px;
+  display: flex;
+  justify-items: start;
+  align-items: center;
 }/*# sourceMappingURL=index.css.map */
