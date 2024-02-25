@@ -1,9 +1,9 @@
 .header {
   background-color: #541554;
-  width: 100%;
   height: 80px;
   list-style: none;
   display: flex;
+  padding: 0px 100px;
 }
 .header .nav {
   height: 80px;
@@ -15,7 +15,6 @@
   display: flex;
   height: 100%;
   width: 100%;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-content: center;
 }
@@ -29,7 +28,7 @@
   display: flex;
   flex-wrap: wrap;
   align-content: center;
-  width: 83%;
+  width: 40%;
   justify-content: space-between;
   font-weight: strong;
   font-size: 15px;
@@ -50,25 +49,29 @@
   width: auto;
   margin: 5px;
 }
-.header .nav div .nav-ul .nav-right {
+.header .nav div .nav-ul ul li:hover {
+  font-size: 25px;
+  text-decoration: underline;
+}
+.header .nav div .nav-right {
   align-items: center;
   text-align: center;
   display: flex;
-  width: 50%;
+  width: 40%;
   height: 100%;
   justify-content: space-between;
   color: white;
   font-weight: strong;
   font-size: 15px;
 }
-.header .nav div .nav-ul .nav-right .sign {
+.header .nav div .nav-right .sign {
   color: white;
   height: 40%;
   align-items: center;
   padding: 0, 5px 0px;
   display: flex;
 }
-.header .nav div .nav-ul .nav-right .contact {
+.header .nav div .nav-right .contact {
   text-transform: uppercase;
   border: 1px solid white;
   border-color: white;
@@ -80,8 +83,10 @@
   align-items: center;
   justify-content: center;
   display: flex;
+  font-size: 12px;
+  font-weight: bold;
 }
-.header .nav div .nav-ul .nav-right .start {
+.header .nav div .nav-right .start {
   height: 50%;
   width: 25%;
   text-transform: uppercase;
@@ -94,4 +99,6 @@
   justify-content: center;
   display: flex;
   padding: 5px;
+  font-size: 14px;
+  font-weight: bold;
 }/*# sourceMappingURL=header.css.map */

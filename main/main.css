@@ -4,9 +4,41 @@ main {
 }
 main .sec-top-gog {
   background-color: aquamarine;
-  width: 100%;
+  padding: 0px 100px;
   height: 582px;
   display: flex;
   justify-items: start;
   align-items: center;
+}
+main .sec-top-gog .sec-txt {
+  display: block;
+  width: 50%;
+  height: 90%;
+}
+main .sec-top-gog .sec-vid {
+  display: flex;
+  height: 55%;
+  animation-iteration-count: 3;
+}
+main .sec-top-gog .sec-vidtop-vid {
+  width: 700px;
+}
+
+.m-txt {
+  font-size: 15px;
+}
+.m-txt-bg {
+  font-size: 20px;
+}
+.m-txt-sm {
+  font-size: 5px;
+}
+.m-txt-o {
+  color: #ECB22E;
+}
+.m-txt-w {
+  color: white;
+}
+.m-txt-b {
+  color: black;
 }/*# sourceMappingURL=main.css.map */
