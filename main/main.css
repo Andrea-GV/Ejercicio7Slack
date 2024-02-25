@@ -50,6 +50,9 @@ main .sec-top-gog .sec-vidtop-vid {
 .m-txt-b {
   color: black;
 }
+.m-txt-blue {
+  color: #1279B9;
+}
 .m-txt-align {
   align-content: center;
   justify-content: center;
@@ -153,7 +156,8 @@ main .sec-top-gog .sec-vidtop-vid {
 }
 .main-col-beige-med {
   background-color: #F4EDE4;
-  height: 350px;
+  height: 400px;
+  display: flex;
 }
 .main-col-whi {
   background-color: white;
@@ -163,21 +167,60 @@ main .sec-top-gog .sec-vidtop-vid {
   margin-top: 50px;
 }
 
+.pad {
+  padding: 0px 50px;
+}
 .pad-top {
   padding-top: 20px;
 }
+.pad-top-less {
+  padding-top: 0px;
+}
 .pad-bot {
   padding-bottom: 20px;
+}
+.pad-lft {
+  padding-left: 20px;
+}
+.pad-rgt {
+  padding-right: 20px;
+}
+
+.pad80 {
+  padding: 80px;
+}
+.pad80-top {
+  padding-top: 80px;
+}
+.pad80-bot {
+  padding-bottom: 80px;
+}
+.pad80-lft {
+  padding-left: 80px;
+}
+.pad80-rgt {
+  padding-right: 80px;
 }
 
 .wid {
   width: 100%;
 }
-.wid-70 {
-  width: 50%;
+.wid-60 {
+  width: 60%;
 }
 
 .sec-vid-rad {
-  width: 70%;
+  width: 100%;
   display: flex;
+  height: auto;
+}
+
+.flex {
+  display: flex;
+}
+.flex-row-re {
+  flex-direction: row-reverse;
+}
+.flex-col {
+  flex-direction: column;
 }/*# sourceMappingURL=main.css.map */

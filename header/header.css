@@ -28,7 +28,7 @@
   display: flex;
   flex-wrap: wrap;
   align-content: center;
-  width: 40%;
+  width: 60%;
   justify-content: space-between;
   font-weight: strong;
   font-size: 15px;
@@ -42,7 +42,7 @@
   font-weight: strong;
   font-size: 15px;
   align-content: center;
-  width: 50%;
+  width: 60%;
   justify-content: space-between;
 }
 .header .nav div .nav-ul ul li {

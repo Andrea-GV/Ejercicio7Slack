@@ -9,6 +9,8 @@ $pad-r-l: 0px 50px;
     list-style: none;
     display: flex;
     padding: #{$pad-r-l};
+
+
         .nav {
             height: 80px;
             width: 100vw;
@@ -32,7 +34,7 @@ $pad-r-l: 0px 50px;
                 display: flex;
                 flex-wrap: wrap;
                 align-content: center;
-                width: 40%;
+                width: 60%;
                 justify-content: space-between;
                 font-weight: strong;
                 font-size: 15px;
@@ -46,7 +48,7 @@ $pad-r-l: 0px 50px;
                     font-weight: strong;
                     font-size: 15px;
                     align-content: center;
-                    width: 50%;
+                    width: 60%;
                     justify-content: space-between;
 
                     li{
