@@ -49,6 +49,10 @@ main{
         font-size: 38px;
         font-weight: bold;
     }
+    &-supbg{
+        font-size: 38px;
+        font-weight: bold;
+    }
     &-sm{
         font-size: 12px;
     }
@@ -63,6 +67,9 @@ main{
     }
     &-blue{
         color: #1279B9;
+    }
+    &-purp{
+        color: #{$purple};
     }
     &-align{
         align-content: center;
@@ -235,4 +242,42 @@ main{
     &-col{
         flex-direction: column;
     }
+}
+
+.bussiness{
+    text-transform: uppercase;
+    border: 1px solid #{$white};
+    border-radius: 4px;
+    background-color: #{$purple};
+    color: #{$white};
+    padding: 20px;
+    height: 50%;
+    width: 45%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+.sales{
+    height: 50%;
+    width: 30%;
+    text-transform: uppercase;
+    border: 1px solid #{$purple};
+    border-color: #{$white};
+    border-radius: 4px;
+    color: #{$purple};
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.posi{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }

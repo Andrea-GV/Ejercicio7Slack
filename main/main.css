@@ -38,6 +38,10 @@ main .sec-top-gog .sec-vidtop-vid {
   font-size: 38px;
   font-weight: bold;
 }
+.m-txt-supbg {
+  font-size: 38px;
+  font-weight: bold;
+}
 .m-txt-sm {
   font-size: 12px;
 }
@@ -52,6 +56,9 @@ main .sec-top-gog .sec-vidtop-vid {
 }
 .m-txt-blue {
   color: #1279B9;
+}
+.m-txt-purp {
+  color: #541554;
 }
 .m-txt-align {
   align-content: center;
@@ -223,4 +230,43 @@ main .sec-top-gog .sec-vidtop-vid {
 }
 .flex-col {
   flex-direction: column;
+}
+
+.bussiness {
+  text-transform: uppercase;
+  border: 1px solid white;
+  border-radius: 4px;
+  background-color: #541554;
+  color: white;
+  padding: 20px;
+  height: 50%;
+  width: 45%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.sales {
+  height: 50%;
+  width: 30%;
+  text-transform: uppercase;
+  border: 1px solid #541554;
+  border-color: white;
+  border-radius: 4px;
+  color: #541554;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.posi {
+  align-items: center;
+  justify-content: center;
+  align-content: center;
 }/*# sourceMappingURL=main.css.map */
