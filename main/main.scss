@@ -8,7 +8,13 @@ $pad-r-l: 0px 50px;
 main{
     width: 100%;
     height: 4214px;
-
+}    
+.a{
+     &:hover{
+        font-size: 25px;
+        text-decoration: underline;
+     }
+}
     .sec-top-gog{
         background-color: #{$purple};
         // width: 50%;
@@ -42,12 +48,16 @@ main{
             }
         }
     }
-}
+
 .m-txt{
     font-size: 20px;
     &-bg{
         font-size: 38px;
         font-weight: bold;
+    }
+    &-bg-em{
+        font-size: 30px;
+        font-style: italic;
     }
     &-supbg{
         font-size: 38px;
@@ -177,7 +187,12 @@ main{
     }
     &-beige-med{
         background-color: #{$body-color};
-        height: 400px;
+        height: auto;
+        display: flex;
+    }
+    &-white-med{
+        background-color: #{$white};
+        height: auto;
         display: flex;
     }
     &-whi{
@@ -187,6 +202,15 @@ main{
 .marg{
     &-top{
         margin-top: 50px;
+    }
+    &-bot{
+        margin: 20px; 
+    }
+    &-lft{
+        margin: 20px;
+    }
+    &-rgt{
+        margin: 20px;
     }
 }
 .pad{
@@ -222,12 +246,7 @@ main{
         padding-right: 80px;
     }
 }
-.wid{
-    width: 100%;
-    &-60{
-        width: 60%;
-    }
-}
+
 .sec-vid-rad{
     width: 100%;
     display: flex;
@@ -239,6 +258,9 @@ main{
     &-row-re{
         flex-direction: row-reverse;
     }
+    &-row{
+        flex-direction: row;
+    }
     &-col{
         flex-direction: column;
     }
@@ -246,26 +268,28 @@ main{
 
 .bussiness{
     text-transform: uppercase;
-    border: 1px solid #{$white};
     border-radius: 4px;
+    border: 1px solid #{$purple};
     background-color: #{$purple};
     color: #{$white};
     padding: 20px;
-    height: 50%;
-    width: 45%;
+    height: 25px;
+    width: 35%;
     align-items: center;
     justify-content: center;
     display: flex;
     font-size: 14px;
     font-weight: bold;
-
+    &:hover{
+        
+    }
 }
 .sales{
     height: 50%;
-    width: 30%;
+    width: 20%;
     text-transform: uppercase;
     border: 1px solid #{$purple};
-    border-color: #{$white};
+    border-color: #{$purple};
     border-radius: 4px;
     color: #{$purple};
     background-color: white;
@@ -275,9 +299,28 @@ main{
     padding: 20px;
     font-size: 14px;
     font-weight: bold;
+    &:hover{
+        border: 2px solid #{$purple};
+    }
 }
 .posi{
     align-items: center;
     justify-content: center;
     align-content: center;
+    text-align: center;
+}
+.wid{
+    width: 100%;
+    &-60{
+        width: 60%;
+    }
+    &-sm{
+        width: 200px;
+    }
+    &-med{
+        width:600px;
+    }
+    &-bg{
+        width: auto;
+    }
 }
